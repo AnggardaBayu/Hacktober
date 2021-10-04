@@ -10,7 +10,7 @@
                 var h = today.getHours();
                 var m = today.getMinutes();
                 var s = today.getSeconds();
-                var dn = "WIB"
+                var dn = "WIT"
                 m = checkTime(m);
                 s = checkTime(s);
                 document.getElementById('digital').innerHTML =
@@ -23,7 +23,7 @@
             } 
             </script>
 </head>
-<body onload="jam()" style="font-family: 'Times New Roman', Times, serif;">
+<body onload="jam()" style="font-family: 'Arial', Times, serif;">
     <div id="text">
             <marquee><h1>Jam Digital</h1></marquee>
     </div>
